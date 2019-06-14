@@ -12,6 +12,6 @@
 
             @{n='Kvname';e={$_.ResourceId.split('/')[-1]}}
 
-    } | export-csv ~/clouddrive/sahttps.csv -Append -NoTypeInformation
+    } | export-csv ~/clouddrive/kvdiags.csv -Append -NoTypeInformation
 
 }
