@@ -5,3 +5,7 @@ Scripts are intended to run in the Azure CloudShell using the AZ PowerShell modu
 As of 6/12/19 the AZ.security module is not yet native in CloudShell. Run "Import-module Az.Security" into your cloudshell before executing.
 
 Scripts with names starting with "remediate" will make changes! Be sure to validate before executing. 
+
+Information about CIS Benchmarks for Azure can be found here: https://azure.microsoft.com/en-us/resources/cis-microsoft-azure-foundations-security-benchmark/
+
+To enforce benchmarks to new deployments use Azure Policy. See this repo for some great examples: https://github.com/mrajess/Azure-Policy-CIS
