@@ -9,3 +9,5 @@ Scripts with names starting with "remediate" will make changes! Be sure to valid
 Information about CIS Benchmarks for Azure can be found here: https://azure.microsoft.com/en-us/resources/cis-microsoft-azure-foundations-security-benchmark/
 
 To enforce benchmarks to new deployments use Azure Policy. See this repo for some great examples: https://github.com/mrajess/Azure-Policy-CIS
+
+For information on making sure all VMs are protected by Azure Security Center, see here: https://techcommunity.microsoft.com/t5/Security-Identity/Identify-Azure-VMs-which-are-not-monitored-by-Security-Center/td-p/733672 
